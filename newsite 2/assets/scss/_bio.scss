@@ -1,0 +1,53 @@
+.bio {
+    background-image: url("/assets/images/background.jpg");
+    text-align: center;
+    padding-top: 10em;
+
+    .bio-main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        img {
+            align-self: center;
+        }
+
+        #profpic {
+            width: 35em;
+            margin-bottom: 2em;
+        }
+
+        #bullets {
+            width: 35em;
+            margin-left: 3em;
+        }
+    }
+
+    .bio-slide {
+        display: flex;
+        justify-content: center;
+        margin-top: 3em;
+        flex-wrap: wrap;
+
+        img {
+            align-self: center;
+            width: 25em;
+            margin: 1em;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bio {
+        padding-top: 7em;
+        .bio-main {
+            #profpic {
+                width: 80vw;
+            }
+
+            #bullets {
+                width: 75vw;
+            }
+        }
+    }
+}

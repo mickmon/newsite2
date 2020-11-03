@@ -1,0 +1,45 @@
+.collab {
+    text-align: center;
+    padding-top: 10em;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        align-self: center;
+    }
+
+    #collab-header-sm {
+        display: none;
+    }
+
+    #collab-header-lg {
+        width: 60em;
+    }
+
+    #discord {
+        margin-top: 2em;
+        width: 15em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .collab {
+        #collab-header-lg {
+            width: 50em;
+        }
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .collab {
+        padding-top: 5em;
+        #collab-header-lg {
+            display: none;
+        }
+
+        #collab-header-sm {
+            display: block;
+            width: 25em;
+        }
+    }
+}

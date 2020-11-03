@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="dist/style.css" />
+		<title>mickmon</title>
+	</head>
+	<body>
+		<div class="landing">
+			<a href="/">
+			<img id="landing-logo" src="assets/images/landing/fairy.png" />
+			</a>
+			
+			<img id="music-producer" src="assets/images/landing/musicproducer.png" />
+			<img id="arrow-down" src="assets/images/landing/arrowdown.png" />
+		</div>
+
+		<div class="intro">
+			<img id="welcome-img" src="assets/images/landing/welcome.png" />
+			<img
+				id="intro-txt-lg"
+				src="assets/images/landing/mickmon-intro-large.png"
+			/>
+			<img
+				id="intro-txt-sm"
+				src="assets/images/landing/mickmon-intro-small.png"
+			/>
+			<div class="intro-btns">
+				    <a href="#listen"> 
+				<img id="listen-btn" src="assets/images/landing/listen.png" /> </a>
+				    <a href="#hire"> 
+				<img id="hire-btn" src="assets/images/landing/hire.png" />
+				    </a>
+				    <a href="#contact"> 
+				<img id="contact-btn" src="assets/images/landing/contact.png" />
+				    </a>
+			</div>
+		</div>
+
+		<div id="hire" class="prodmixmaster">
+			<img
+				id="prodmixmaster-title"
+				src="assets/images/prodmixmaster/prodmixmaster.png"
+			/>
+			<img
+				id="prodmixmaster-sml"
+				src="assets/images/prodmixmaster/prodmixmaster-sml.png"
+			/>
+			<div class="prodmixmaster-content">
+				<div class="detail-card" id="production-detail">
+					<img
+						id="prod-title"
+						src="assets/images/prodmixmaster/prod-title.png"
+					/>
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/WMfYnBu5_Yo"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+					<img
+						class="pmm-detail-txt"
+						id="production-detail-txt-lg"
+						src="assets/images/prodmixmaster/prod-desktop.png"
+					/>
+				</div>
+				<div class="detail-card" id="mix-detail">
+					<img src="assets/images/prodmixmaster/mix-title.png" />
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/UeiKY2JuIcg?list=PLfYa0afsLq2O0iPeG3d2Vw6QBfJgPW50X"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+					<img
+						class="pmm-detail-txt"
+						id="mix-detail-txt-lg"
+						src="assets/images/prodmixmaster/mix-desktop.png"
+					/>
+				</div>
+				<div class="detail-card" id="master-detail">
+					<img
+						id="mix-title"
+						src="assets/images/prodmixmaster/master-title.png"
+					/>
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/-4cvjkZPJr0"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+					<img
+						class="pmm-detail-txt"
+						id="master-detail-txt"
+						src="assets/images/prodmixmaster/mastering.png"
+					/>
+				</div>
+			</div>
+		</div>
+
+		<div  id="contact" class="contact">
+			<img id="contact-title" src="assets/images/contact/imyourproducer.png" />
+			<form id="my-form" action="https://formspree.io/f/mgepogzg" method="POST">
+				<input type="email" name="email" placeholder="Your email" />
+				<textarea
+					name="message"
+					placeholder="your message"
+					id="message"
+				></textarea>
+				<button type="submit">Submit</button>
+			</form>
+			<img id="studio-pic" src="assets/images/contact/studiopic.png" />
+		</div>
+
+		<div id="listen" class="listen-collab-wrapper">
+			<div class="listen">
+				<div class="listen-header">
+					<img id="listen-title" src="assets/images/listen/listen.png" />
+
+					<img
+						id="music-every-month"
+						src="assets/images/listen/musiceverymonth.png"
+					/> 
+				</div>
+				<div class="listen-options">
+					<iframe
+						class="listen-player"
+						id="listen-1"
+						src="https://open.spotify.com/embed?uri=spotify%3Aartist%3A5jSBQzlZVzrVMJBuZOnr1k"
+						frameborder="0"
+						allowtransparency="true"
+						allow="encrypted-media"
+					></iframe>
+
+					<iframe
+						class="listen-player"
+						id="listen-2"
+						scrolling="no"
+						frameborder="no"
+						allow="autoplay"
+						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771255124&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+					></iframe>
+
+					<iframe
+						class="listen-player"
+						id="listen-3"
+						src="https://www.youtube.com/embed/_xUixM8w1aE"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</div>
+				<div class="subscription">
+					<form
+						action="https://mickmon.us19.list-manage.com/subscribe/post?u=3fb0274156493e424a125ba17&amp;id=d04a47a900"
+						method="post"
+						id="mc-embedded-subscribe-form"
+						name="mc-embedded-subscribe-form"
+						class="validate"
+						target="_blank"
+						novalidate
+						onsubmit="return validateForm()"
+					>
+						<input
+							type="email"
+							value=""
+							name="EMAIL"
+							placeholder="email"
+							id="mce-EMAIL"
+							required
+						/>
+						<button
+							type="submit"
+							value="Subscribe"
+							name="subscribe"
+							id="mc-embedded-subscribe"
+						>
+							Subscribe
+						</button>
+						<div id="mce-responses" class="clear"></div>
+					</form>
+				</div>
+			</div>
+
+			<div class="collab">
+				<img id="collab-header-sm" src="assets/images/collab/collab-sm.png" />
+				<img id="collab-header-lg" src="assets/images/collab/collab-lg.png" />
+				    <a href="https://discord.gg/PaxpFN3">
+				<img id="discord" src="assets/images/collab/joinmydiscord.png" /> 
+				    </a>
+			</div>
+		</div>
+
+		<div class="bio">
+			<div class="bio-main">
+				<img id="profpic" src="assets/images/bio/profpic.jpg" />
+				<img id="bullets" src="assets/images/bio/biobullets.png" />
+			</div>
+			<div class="bio-slide">
+				<img id="bio-1" src="assets/images/bio/kalimbawall.jpg" />
+				<img id="bio-2" src="assets/images/bio/crew.jpg" />
+				<img id="bio-3" src="assets/images/bio/Opheliacrew.png" />
+				<img id="bio-4" src="assets/images/bio/studioboss.JPG" />
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="socials">
+				<a href="https://www.instagram.com/mickmon12/">
+				    <img src="assets/images/footer/ig.png" />
+				</a>
+				<a href="https://www.youtube.com/user/mickmon">
+				<img src="assets/images/footer/yt.png" />
+                </a>
+                
+                <a href="https://soundcloud.com/mickmonproductions">
+				<img src="assets/images/footer/sc.png" />
+				</a>
+				
+				<a href="https://open.spotify.com/artist/5jSBQzlZVzrVMJBuZOnr1k?si=1H31392nThiIiRUpZGIOHA">
+				<img src="assets/images/footer/sp.png" />
+                </a>
+                
+			</div>
+			<img id="mlogo" src="assets/images/footer/mlogo.png" />
+		</div>
+
+		<!-- Javascript -->
+		<script
+			type="text/javascript"
+			src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+		></script>
+		<script type="text/javascript" src="./assets/js/main.js"></script>
+	</body>
+</html>
